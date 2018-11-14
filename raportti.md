@@ -12,17 +12,4 @@ Asensin salt minionin ja masterin, sekä gitin. Loin Githubiin repositoryn nimel
   	  pkg.installed:
     	    - name: apache2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Suoritin **sudo salt '*' state.highstate**, vastauksena sain, että minioni oli onnistuneesti asentanut apachen. Seuraavaksi poistin **/srv/salt** kansion komennolla **sudo rm -r salt/** ja kloonasin sen takaisin gitillä.

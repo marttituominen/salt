@@ -6,7 +6,7 @@ Tietokoneena toimii Asus X556UJ, jossa sisällä Intel i7-6500U, NVIDIA GeForce 
 
 #### c)
 
-Asensin salt minionin ja masterin, sekä gitin. Loin Githubiin repositoryn nimellä salt ja kloonasin sen tietokoneelle **/srv** kansioon. **/srv/salt** kansioon loin **apache** kansion ja sinne **init.sls* tiedoston, joka asentaa apachen minioneille:
+Asensin salt minionin ja masterin, sekä gitin. Loin Githubiin repositoryn nimellä salt ja kloonasin sen tietokoneelle **/srv** kansioon. **/srv/salt** kansioon loin **apache** kansion ja sinne **init.sls** tiedoston, joka asentaa apachen minioneille:
 
  	apache2pkg:
   	  pkg.installed:

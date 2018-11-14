@@ -55,4 +55,4 @@ Komennolla **git log** sian vastaukseksi:
  	
  	    Initial commit
 
-Kronologisesti logi alkaa alhaalta ja jatkuu ylöspäin. Siinä näkyy commitin päivämäärä, id ja tekijä, selitys mitä on tehty, sekä tekijän yhteystiedot.
+Kronologisesti logi alkaa alhaalta ja jatkuu ylöspäin. Siinä näkyy commitin päivämäärä, id ja tekijä, selitys mitä on tehty, sekä tekijän yhteystiedot. Komento **git diff** ei tulostanut mitään, varmaan koska olin jo kerennyt committaamaan. 

@@ -4,6 +4,8 @@ base:
     - libreoffice
     - firefox
     - vlc
+    - apache
+    - sshd
 
   'G@kernel:windows':
     - chrome

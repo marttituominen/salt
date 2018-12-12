@@ -1,12 +1,11 @@
 base:
-  '*linux*':
+  'G@kernel:Linux':
     - git
     - libreoffice
     - firefox
     - vlc
 
-  '*win*':
-    - win
+  'G@kernel:windows':
     - chrome
     - steam
     - vlc

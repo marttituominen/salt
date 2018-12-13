@@ -8,6 +8,4 @@ base:
     - sshd
 
   'G@kernel:windows':
-    - chrome
-    - steam
-    - vlc
+    - win
